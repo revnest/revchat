@@ -37,7 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@revnest/revchat",
+  "name": "revchat",
   "private": false,
   "author": "Revnest",
   "repository": {
