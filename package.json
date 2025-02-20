@@ -37,9 +37,13 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "react-chat-engine-advanced",
-  "author": "Adam La Morre",
-  "repository": "chatengine-io/react-chat-engine-advanced",
+  "name": "@revnest/revchat",
+  "private": false,
+  "author": "Revnest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revnest/revchat.git"
+  },
   "module": "dist/react-chat-engine-advanced.esm.js",
   "size-limit": [
     {
