@@ -52,7 +52,7 @@ export const useMultiChatLogic = (
   secret: string,
   httpUrl?: string
 ) => {
-  const host = httpUrl ? httpUrl : 'https://api.chatengine.io';
+  const host = httpUrl ? httpUrl : 'https://chat.revnest.com';
   const headers: UserAuthHeaders = {
     'Public-Key': projectId,
     'User-Name': username,

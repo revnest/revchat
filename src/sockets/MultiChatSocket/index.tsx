@@ -29,7 +29,7 @@ export const MultiChatSocket: React.FC<Props> = (props: Props) => {
     if (!didMountRef.current) {
       didMountRef.current = true;
 
-      const host = props.httpUrl ? props.httpUrl : 'https://api.chatengine.io';
+      const host = props.httpUrl ? props.httpUrl : 'https://chat.revnest.com';
       const headers: UserAuthHeaders = {
         'Public-Key': props.projectId,
         'User-Name': props.username,
